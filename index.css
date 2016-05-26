@@ -39,12 +39,15 @@ html,body {
 }
 
 div.title {
-    margin-top: 8%;
+    margin-top: 5%;
     font-family: "Montserrat";
     text-transform: uppercase;
     font-size: 14px;
     color: #898989;
     letter-spacing: 1px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 p {
@@ -54,8 +57,11 @@ p {
 	color: #ABABAB;
 	line-height: 30px;
     text-align: center;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
-    
+
 .button {
     color: #979797;
     background: #FFD9D9;
@@ -146,6 +152,9 @@ input {
 	border-bottom: 3px solid #ABABAB;
 	padding-bottom: 5px;
 	width: 60%;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 input#name {
@@ -165,6 +174,7 @@ input:focus{
 }
 
 .button {
+    cursor: pointer
     color: #ABABAB;
     background: #F9F9F9;
     border: 3px solid #ABABAB;
@@ -178,6 +188,9 @@ input:focus{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     min-width: 120px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 .button:hover {
@@ -189,20 +202,37 @@ div.request-button {
     text-align: center;
 }
 
-div.age {
-	text-align: center;
-	margin-top: 5%;
-	padding-bottom: 120px;
-}
-
 h2 {
-    margin-top: -40%;
+    margin-top: -45%;
     color: #000000;
     font-family: "Bitter";
     font-weight: 500;
     text-align: center;
     color: #979797;
     font-size: 14px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+div.age {
+	text-align: center;
+	margin-top: 4%;
+	padding-bottom: 120px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+a.twitter {
+    text-decoration: none;
+    color: #979797;
+    z-index: 2;
+    position: relative;
+}
+
+a.twitter:hover {
+    color: #FFD9D9;
 }
 
 h5 {
@@ -210,15 +240,6 @@ h5 {
 	color: #ABABAB;
 	font-size: 10px;
 	font-family: "Bitter";
-}
-
-a.twitter {
-    text-decoration: none;
-    color: #979797;
-}
-
-a.twitter:hover {
-    color: #FFD9D9;
 }
 
 a.terms {
@@ -577,4 +598,37 @@ div.web::after {
 	margin-top: 900px;
 	font-size: 10px;
 }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
