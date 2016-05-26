@@ -94,9 +94,9 @@ div.request-button {
 }
 
 div.menu {
-	text-align: center; 
+    text-align: center; 
     display: inline-block;
-	position: absolute;
+    position: absolute;
     left: 50%;
     top: 10%;
     -webkit-transform: translateX(-50%);
@@ -174,7 +174,7 @@ input:focus{
 }
 
 .button {
-    cursor: pointer
+    cursor: pointer;
     color: #ABABAB;
     background: #F9F9F9;
     border: 3px solid #ABABAB;
