@@ -273,8 +273,10 @@ a.terms:hover {
 }
 
 #footer a:hover {
+	color: #CFE795;
 	text-decoration: none;
 	opacity: .8;
+	border-bottom: 2px solid #CFE795;
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
