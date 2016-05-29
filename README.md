@@ -1,3 +1,3 @@
-# budbot.co
+# Budbot.co
 
-# An SMS food delivery service giving gifts of cannabis.
+An SMS food delivery service giving gifts of cannabis.
