@@ -191,11 +191,18 @@ input:focus{
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
+
+    transition: all .2s ease-out;
+   -moz-transition: all .2s ease-out;
+   -webkit-transition: all .2s ease-out;
 }
 
 .button:hover {
     color: #ABABAB;
     background-color: #FFD9D9;
+    -ms-transform: scale(1.03); /* IE 9 */
+	-webkit-transform: scale(1.03); /* Chrome, Safari, Opera */
+	transform: scale(1.03);
 }
 
 div.request-button {
