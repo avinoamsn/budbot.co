@@ -286,7 +286,10 @@ a.terms:hover {
 #footer a {
 	text-decoration: none;
 	color: #ABABAB;
-	border-bottom: 2px solid #ABABAB;
+	border-bottom: 2px solid #F9F9F9;
+	transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
 }
 
 #footer a:hover {
@@ -294,6 +297,8 @@ a.terms:hover {
 	text-decoration: none;
 	opacity: .8;
 	border-bottom: 2px solid #6BA292;
+	-moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
