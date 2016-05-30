@@ -411,7 +411,7 @@ div.menu {
 div.web {
     position: relative;
     width: 200px;
-    height: 570px;
+    height: 600px;
     padding: 30px;
     border: 2px solid #ABABAB;
     border-radius: 4px; 
@@ -454,7 +454,7 @@ h5 {
 }
 
 #footer {
-	margin-top: 800px;
+	margin-top: 850px;
 	font-size: 10px;
 }
 }
