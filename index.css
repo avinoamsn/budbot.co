@@ -36,6 +36,16 @@ html,body {
 #logo-img {
     width: 10%;
     margin-top: -10%;
+    transition: all .2s ease-out;
+   -moz-transition: all .2s ease-out;
+   -webkit-transition: all .2s ease-out;
+
+}
+
+#logo-img:hover {
+	-ms-transform: scale(1.03); /* IE 9 */
+	-webkit-transform: scale(1.03); /* Chrome, Safari, Opera */
+	transform: scale(1.03);
 }
 
 div.title {
