@@ -181,6 +181,7 @@ input#number {
 
 input:focus{
     outline: none;
+    font-size: 14px;
 }
 
 .button {
