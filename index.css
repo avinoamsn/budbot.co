@@ -208,8 +208,9 @@ input:focus{
 }
 
 .button:hover {
-    color: #ABABAB;
+    color: #000000;
     background-color: #FFD9D9;
+    border: 3px solid #000000;
     -ms-transform: scale(1.03); /* IE 9 */
 	-webkit-transform: scale(1.03); /* Chrome, Safari, Opera */
 	transform: scale(1.03);
